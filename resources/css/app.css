@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+#app{
+    height: 100%;
+    min-height: 100dvh;
+}
+
+    .border, .border-l, .border-b, .border-t{
+        border: 1px solid rgba(255,255,255,0.4);
+    }
